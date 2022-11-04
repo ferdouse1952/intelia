@@ -4,7 +4,6 @@ import NavBar from "./components/common/NavBar/NavBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import ShowCase from "./components/ShowCase/ShowCase";
-import { useEffect, useRef } from "react";
 import Paralax from "./components/Parallax/Paralax";
 import Footer from "./components/Footer/Footer";
 import Home02 from "./components/Home02/Home02";
@@ -21,7 +20,7 @@ function App() {
           <Route path="/showcase" element={<ShowCase/>} />
           <Route path="/paralax" element={<Paralax/>} />
       </Routes>
-      {/* <Footer/> */}
+      <Footer/>
       </BrowserRouter>
       
     </div>
