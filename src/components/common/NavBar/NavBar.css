@@ -1,0 +1,88 @@
+.my-navbar{
+    padding:50px 150px !important;
+    background: #1a1f24;
+}
+.toggleBar{
+    /* width: 50px; */
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: start;
+    /* display: block !important; */
+    
+}
+.toggleBar:focus{
+    box-shadow: none !important;
+}
+.toggleBar .top{
+    /* position: absolute; */
+    bottom: 8px;
+    width: 18px;
+    height: 3px;
+    background: #fff;
+}
+.toggleBar .middle{
+    /* position: absolute; */
+    width: 18px;
+    height: 3px;
+    /* bottom: 7px; */
+    background: #fff;
+}
+.toggleBar .bottom{
+    /* position: absolute; */
+    width: 30px ;
+    height: 3px ;
+    top: 11px;
+    background: #fff ;
+}
+
+.my-navbar .collapse:not(.show) .nav-item{
+display: none;
+animation: fadeDown 3s !important;
+}
+
+.nav-item{
+animation-name: fadeUp ;
+animation-duration: 300ms;
+animation-fill-mode: both;
+animation-timing-function: ease-out;
+font-size: 18px;
+text-transform: uppercase;
+}
+.nav-item:nth-child(2){
+    animation-delay:0.2s;
+}
+.nav-item:nth-child(3){
+    animation-delay:0.4s;
+}
+.nav-item:nth-child(4){
+    animation-delay:0.6s;
+}
+.nav-item:nth-child(5){
+    animation-delay:0.8s;
+}
+
+@keyframes fadeUp {
+    0%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+        
+    }
+    
+}
+@keyframes fadeDown {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(20px);
+        
+    }
+    
+}

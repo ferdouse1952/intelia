@@ -1,0 +1,51 @@
+.hero-section{
+    background: #1a1f24;
+}
+.svg-img{
+    width: 650px;
+    height: 650px;
+}
+.homeText{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.homeText-inner{
+    padding-left: 150px;
+}
+.homeText h1{
+    font-family: Bebas Neue;
+    color: #fff;
+    font-size: 72px;
+}
+.homeText p{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+    max-width: 490px;
+}
+.divider-pink{
+    background: #ea147b;
+    width: 30px;
+    height: 15px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+}
+.hero-footer::before{
+    content: '';
+    position: absolute;
+    background-color: #ea147b;
+    height: 1px;
+}
+.homeBrandLogos{
+    list-style: none;
+    width: 600px;
+}
+.homeBrandLogos img{
+    width: 100%;
+}
+.footerText{
+    color: #88949e;
+    padding-left: 130px;
+}

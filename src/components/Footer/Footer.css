@@ -1,0 +1,36 @@
+.footer-section{
+    padding:50px 150px;
+}
+li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+}
+.footer-section h5{
+    font-weight: 400;
+}
+.footer-section p{
+    color: gray;
+    font-size: 18px;
+}
+.form-floating input{
+    background: #e8edf1;
+}
+.footer-section label{
+    color: gray;
+}
+.form-floating button{
+    background: #0fbdce;
+    color: #fff;
+    padding: 10px 40px;
+}
+.footer-divider{
+    background-color: #afb5b9;
+    height: 1px;
+}
+
+

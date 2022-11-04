@@ -1,0 +1,592 @@
+.showcase-hero-section{
+    background-color: #1a1f24;
+    overflow: hidden;
+    position: relative;
+}
+.showcase-text{
+    padding-top:220px;
+    padding-bottom: 300px;
+    padding-left: 90px;
+}
+.showcase-text h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Bebas Neue;
+    font-size: 72px;
+    line-height: 1.0;
+}
+.showcase-text p{
+    color: #fff;
+    font-size: 26px;
+    max-width: 500px;
+}
+.divider-blue{
+    width: 30px;
+    height: 15px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    background-color: #0fbdce;
+}
+
+.img-div{
+    max-width: 1023px;
+    height: 1063px;
+    position: absolute;
+    right: -175px;
+    top: 50px;
+}
+.img-div img{
+    max-width: 100%;
+    height: 100%;
+}
+/* OXFAM */
+.showcase-oxfam-section{
+    position: relative;
+    overflow: hidden;
+    padding: 165px 0;
+    background-color: #f3f3fb;
+}
+.work-summary{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    z-index: 10;
+}
+.oxfam-logo{
+    width: 60px;
+    height: 60px;
+}
+.oxfam-logo img{
+    max-width: 100%;
+    height: 100%;
+}
+.work-summary h1{
+    font-family: Bebas Neue;
+    font-size: 60px;
+}
+.work-summary p{
+    color: #3b4f61;
+    font-size: 28px;
+    font-weight: 400;
+    max-width: 410px;
+}
+/* Common */
+.device-preview{
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    z-index: 10;
+}
+.oxfam-preview-video{
+    height: 550px;
+}
+.ipad-video-preview{
+    max-width: 100%;
+    height: 100%;
+}
+/* Common */
+.showcase-background-objects{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+.showcase-background-objects span {
+    position: absolute;
+}
+.orb-1{
+   width: 200px;
+   right: 0;
+}
+.orb-1 img{
+    max-width: 100%;
+}
+.orb-2{
+    width: 80px;
+    right: 55%;
+    top: 20%;
+}
+.orb-2 img{
+    width: 100%
+}
+.orb-path{
+    width: 600px;
+    height: 350px;
+    bottom: -12%;
+    left: -1%;
+}
+.orb-path img{
+    max-width: 100%;
+    height: 100%;
+}
+.bg-dots-1{
+    top: -4%;
+    right: 70%;
+}
+.bg-dots-1 img{
+    width: 100%;
+    transform: rotate(90deg);
+}
+.bg-dots-2{
+    right: 52%;
+    top: 55%;
+}
+.small-orb{
+    top: 25%;
+    left: 5%;
+}
+/* FilmHouse */
+.showCase-filmHouse-section{
+    position: relative;
+    overflow: hidden;
+    background-color: #0d1111;
+    padding: 150px 0;
+}
+.filmHouse-video{
+    height: 550px;
+}
+.filmHouse-video-preview{
+    max-width: 100%;
+    height: 100%;
+}
+.filmHouse-row h1{
+    color: #fff;
+}
+.filmHouse-row p{
+    color: #fff;
+}
+
+.lining{
+    height: 600px;
+    bottom: -35%;
+    left: 75%;
+}
+.lining img{
+    height: 100%;
+}
+.oval{
+    top: 20%;
+    right: 7%;
+}
+.oval-1{
+    bottom: -80%;
+    right: 50%;
+}
+.oval-2{
+    top: 19%;
+    left: 35%;
+}
+.oval-3{
+    bottom: 17%;
+    right: 1%;
+}
+.oval-4{
+    bottom: 10%;
+    left: 8%;
+}
+
+/* Monitor */
+.monitor-showcase-section{
+    position: relative;
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 90px;
+}
+.monitor-logo{
+    width: 60px;
+}
+.monitor-logo img{
+    max-width: 100%;
+}
+.mobile-logo{
+    width: 40px;
+    height: 40px;
+}
+.mobile-logo img{
+    max-width: 100%;
+    height: 100%;
+}
+.first-iphone-video{
+    width: 850px;
+    height: 735px;
+    
+}
+.first-iphone-video video{
+    width: 100%;
+    height: 100%;
+}
+
+.pitt-orbs-bottom-center{
+   top: 50%;
+   right:0%;
+}
+.pitt-orbs-bottom-left{
+    top: 41%;
+    right: 50%;
+}
+.pitt-orbs-right{
+    top: 50%;
+    left: 30%;
+}
+.pitt-orbs-top{
+    bottom: -20%;
+    left: 25%;
+}
+.pitt-orbs1{
+    bottom: 10%;
+    right: 1%;
+}
+/* Helfie */
+.helfie-showcase-section{
+    position: relative;
+    overflow: hidden;
+    padding: 150px 0;
+    background: linear-gradient(318.77deg,#30a3e3 16.27%,#603dce 82.77%);
+}
+.helfie-showcase-section h1{
+    color: #fff;
+}
+.helfie-showcase-section p{
+    color: #fff;
+}
+.second-iphone-helfie-cover{
+    position: absolute;
+    height: 700px;
+}
+.second-iphone-helfie-cover img{
+    height: 100%;
+}
+.second-iphone-video{
+    position: relative;
+    height:772px;
+    padding: 85px 22px;
+}
+.second-iphone-video video{
+    height: 100%;
+}
+.helfie-row .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.helfie-row .bg-overlay{
+    background-color:rgba(9,9,9,.8);
+}
+.helfie-row .bg-overlay-2{
+    background: linear-gradient(-180deg,rgba(42,42,46,.83) 1%,rgba(42,42,47,.24));
+}
+.plus{
+    top: 80%;
+    right:50%;
+ }
+ .plus-one{
+     top: 50%;
+     right: 80%;
+ }
+ .plus-two{
+     top: 95%;
+     right:5%;
+ }
+ .plus-three{
+     bottom: -20%;
+     left: 25%;
+ }
+ /* Painimation */
+ .painimation-showcase-section{
+    background: #f0f0f6;
+    position: relative;
+    overflow: hidden;
+    padding: 150px 0;
+ }
+ .third-iphone-painimation-cover{
+    position:relative;
+    height: 772px;
+    top: 90px;
+}
+.third-iphone-painimation-cover img{
+    height: 100%;
+}
+.third-iphone-video{
+    position: absolute;
+    /* width: 500px; */
+    height: 672px;
+    padding: 60px 140px;
+}
+.third-iphone-video video{
+    height: 100%;
+}
+.pain-ball-1{
+    bottom: -35%;
+    left: 25%;
+}
+.pain-ball-2{
+    top: 41%;
+    right: 50%;
+}
+.pain-ball-3{
+    bottom: 17%;
+    right: 1%;
+}
+.pain-ball-4{
+    top: -10%;
+    right: 7%;
+}
+.pain-ball-5{
+    top: -15%;
+    left: 10%;
+}
+.pain-ball-6{
+    bottom: -10%;
+    left: 50%;
+}
+/* poker-society */
+.pokerSociety-showcase-section{
+    position: relative;
+    overflow: hidden;
+    padding: 150px 0;
+    background: linear-gradient(123deg,#f3a01e,#f41149);
+}
+.poker-society-logo{
+    width: 56px;
+}
+.poker-society-logo img{
+    max-width: 100%;
+}
+.fourth-iphone-pokerSociety-cover{
+    position: absolute;
+    height: 700px;
+    top: 138px;
+}
+.fourth-iphone-pokerSociety-cover img{
+    height: 100%;
+}
+.fourth-iphone-video{
+    position: relative;
+    height: 660px;
+    padding: 65px 127px;
+}
+.fourth-iphone-video video{
+    height: 100%;
+}
+.chip-1{
+    width: 150px;
+    top: 70%;
+    left:10%;
+}
+.chip-1 img{
+    width: 100%;
+}
+.chip-2{
+    width: 30px;
+    top: -35%;
+    left: 20%;
+}
+.chip-2 img{
+    width: 100%;
+}
+.chip-3{
+    width: 90px;
+    bottom: -60%;
+    left: 20%;
+}
+.chip-3 img{
+    width: 100%;
+}
+.chip-4{
+    width: 120px;
+    top: 9%;
+    left: 35%;
+}
+.chip-4 img{
+    width: 100%;
+}
+.chip-5{
+    width: 70px;
+    bottom: 15%;
+    right: 45%;
+}
+.chip-5 img{
+    width: 100%;
+}
+.chip-6{
+    width: 150px;
+    right: 15%;
+}
+.chip-6 img{
+    width: 100%;
+}
+.chip-7{
+    width: 80px;
+    bottom: 20%;
+    right: 8%;
+}
+.chip-7 img{
+    width: 100%;
+}
+/* medical-center */
+.medical-center-showcase-section{
+    background: #ebedf2;
+    position: relative;
+    overflow: hidden;
+    padding: 150px 0;
+}
+.medicalCenter-logo{
+    width: 60px;
+}
+.medicalCenter-logo img{
+    width: 100%;
+}
+.pitt-orbs-bottom-center{
+    top: 20%;
+    right: 7%;
+}
+.pitt-orbs-bottom-left{
+    top: 41%;
+    right: 50%;
+}
+.pitt-orbs-right{
+    top: -20%;
+    left: 20%;
+}
+.pitt-orbs-top{
+    bottom: -15%;
+    left: 25%;
+}
+.pitt-orbs1{
+    bottom: -25%;
+    right: 1%;
+}
+/* CRRRUNCHTIME */
+.crranchTime-showcase-section{
+    position: relative;
+    overflow: hidden;
+    padding: 150px 0;
+    background: #1a1f24;
+}
+.fifth-iphone-crranchTime-cover{
+    position: relative;
+    height: 700px;
+    top: 2%;
+}
+.fifth-iphone-crranchTime-cover img{
+    height: 100%;
+}
+.fifth-iphone-video{
+    position: absolute;
+    height: 650px;
+    padding: 55px 128px;
+}
+.fifth-iphone-video video{
+    height: 100%;
+}
+.ball-1{
+    top: -70%;
+    right: 10%;
+}
+.ball-2{
+    top: 25%;
+    right: 50%;
+}
+.ball-3{
+    top: 50%;
+    left: 25%;
+}
+.ball-4{
+    bottom: -40%;
+    left: 14%;
+}
+.ball-5{
+    bottom: -35%;
+    right: 1%;
+}
+/* pathevo */
+.pathevo-showcase-section{
+    position: relative;
+    overflow: hidden;
+    background: #e6ebef;
+    padding: 200px 0;
+}
+.pathebo-logo{
+    width: 100px;
+}
+.pathebo-logo img{
+    max-width: 100%;
+}
+.pathebo-showcase-cover{
+   position:relative;
+   height: 550px;
+   top: 15px;
+}
+.pathebo-showcase-cover img{
+    height: 100%;
+}
+.sixth-iphone-video{
+    position: absolute;
+    height: 550px;
+    padding: 40px 110px;
+}
+.sixth-iphone-video video{
+    height: 100%;
+}
+.cloud-1 span{
+    position: relative;
+}
+.cloud-2 span{
+    position: relative;
+}
+.cloud-1{
+    left: -33%;
+    bottom: -70%;
+}
+.cloud-2{
+    bottom: -55%;
+    right: -10%;
+}
+.rocket-1{
+    top: 50%;
+    left: 60%;
+}
+.rocket-2{
+    top: 25%;
+}
+.rocket-man{
+    width: 320px;
+    top: 30%;
+    right: 13%;
+}
+.rocket-man img{
+    width: 100%;
+}
+
+/* TRUSTEDBY */
+.brandLogos{
+    list-style: none;
+    width: 650px;
+}
+.brandLogos img{
+    width: 100%;
+}
+.trustedBy-showcase-section h5{
+    color: #0fbdce;
+    font-weight: 300;
+}
+/* HIRE US SECTION */
+.hire-us-showcase-section{
+    background: url(https://s3-us-west-2.amazonaws.com/intelia-ui-assets/images/plexus-node-2.svg),-webkit-linear-gradient(340deg,#27e1f4,#d51571);
+    padding: 150px 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hire-us-text h1{
+    font-family: Bebas Neue;
+    font-size: 60px;
+}
+.hire-us-showcase-section button{
+    font-size: 18px;
+    color: #ea147b;;
+    padding:15px 40px;
+}

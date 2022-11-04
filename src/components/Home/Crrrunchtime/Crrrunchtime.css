@@ -1,0 +1,199 @@
+.crrrunchtimeImg{
+    position: relative;
+    background-size: cover;
+    cursor: pointer;
+}
+.crrrunchtimeImg::before{
+    content: " ";
+    background: linear-gradient(148deg,rgba(22,124,135,.63),rgba(182,27,102,.6) 100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+.colImg{
+    background-image: url("https://s3-us-west-2.amazonaws.com/intelia-ui-assets/images/crrrunchtime-bg.jpg");
+    height: 80vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.firstcardImg{
+    position: relative;
+    overflow: hidden;
+    background-image: url("https://s3-us-west-2.amazonaws.com/intelia-ui-assets/images/pathevo-bg.jpg");
+    height: 40vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secondcardImg{
+    position: relative;
+    overflow: hidden;
+    background-image: url("https://s3-us-west-2.amazonaws.com/intelia-ui-assets/images/oxfam+preview.jpg");
+    height: 40vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.crrrunchtimeText{
+    position: absolute;
+    z-index: 13;
+    padding-top: 500px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+}
+.crrrunchtimeText h1{
+    font-size: 72px;
+    font-family: Bebas Neue;
+}
+.crrrunchtimeText p{
+    font-size: 20px;
+}
+.cardText{
+    padding: 65px;
+}
+.cardText h5{
+    font-size: 48px;
+    font-family: Bebas Neue;
+}
+.cardText p{
+    color: #88949e;
+    font-size: 20px;
+    font-weight: 350;
+    width: 220px;
+}
+.crrrunchtimeIcon{
+    width:100%;
+    color: #88949e;
+    font-size: 30px;
+    transition: 1.5s;
+}
+.sideDividerRow:hover .crrrunchtimeIcon{
+    width: 100px;
+}
+
+.firstcard-divider{
+    width: 212px;
+    height: 212px;
+    overflow: hidden;
+    border-radius: 50%;
+    z-index: 15;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+}
+.secondcard-divider{
+    width: 212px;
+    height: 212px;
+    overflow: hidden;
+    border-radius: 50%;
+    z-index: 15;
+    display: block;
+    position: relative;
+    top: 0%;
+    left: 53%;
+    transform: translate(50%,50%);
+}
+.divider-fill{
+    position: relative;
+    width: 208px;
+    height: 208px;
+    margin: 2px auto;
+    box-shadow: 0 -260px 0 44px #fff;
+    border-radius: 50%;
+    transition: .48s;
+}
+.firstdivider-fill:after {
+    content: " ";
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    width: 84px;
+    height: 84px;
+    background: #fff;
+    border-radius: 50%;
+}
+.seconddivider-fill::after{
+    content: " ";
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left:57%;
+    transform: translate(-50%,-50%);
+    width: 84px;
+    height: 84px;
+    background: #fff;
+    border-radius: 50%;
+}
+.sideDividerRow:hover .divider-fill{
+    box-shadow: 0 -10px 0 44px #fff;
+}
+.firstIcon-arrow{
+    background-color: rgb(255, 253, 253);
+}
+.secondIcon-arrow{
+    background-color: #88949e;
+}
+.firstIcon-arrow::after{
+    background-color: rgb(255, 255, 255);
+}
+.firstIcon-arrow::before{
+    background-color: rgb(255, 255, 255);
+}
+.secondIcon-arrow::after{
+    background-color: #88949e;
+}
+.secondIcon-arrow::before{
+    background-color: #88949e;
+}
+.iconArrow{
+    width: 22px;
+    height: 3px;
+    border-radius: 5px;
+    position: relative;
+    transition: 1s;
+}
+.iconArrow::after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    height: 3px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    right: -5px;
+    bottom: 4px;
+    transition: 1s;
+}
+.iconArrow::before{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    height: 3px;
+    transform: rotate(-45deg);
+    border-radius: 5px;
+    right: -5px;
+    bottom: -4px;
+    transition: 1s;
+}
+.crrrunchtimeImg:hover .iconArrow{
+    width: 110px;
+}
+.sideDividerRow:hover .iconArrow{
+    width: 100px;
+    background-color: black;
+}
+.sideDividerRow:hover .iconArrow::after{
+    background-color: black;
+}
+.sideDividerRow:hover .iconArrow::before{
+    background-color: black;
+}
