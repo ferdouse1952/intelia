@@ -6,7 +6,8 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import ShowCase from "./components/ShowCase/ShowCase";
 import Paralax from "./components/Parallax/Paralax";
 import Footer from "./components/Footer/Footer";
-import Home02 from "./components/Home02/Home02";
+import Home from "./components/HomeSection/Home/Home";
+
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <NavBar />
       <BrowserRouter>
       <Routes>
-          <Route path="/" element={<Home02 />} />
+          <Route path="/" element={<Home/>} />
           <Route path="/showcase" element={<ShowCase/>} />
           <Route path="/paralax" element={<Paralax/>} />
       </Routes>
