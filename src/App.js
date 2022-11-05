@@ -21,7 +21,7 @@ function App() {
           <Route path="/showcase" element={<ShowCase/>} />
           <Route path="/paralax" element={<Paralax/>} />
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
       </BrowserRouter>
       
     </div>

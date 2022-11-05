@@ -1,0 +1,22 @@
+.serviceRow{
+    padding-top: 100px;
+}
+.serviceCol{
+    padding-left: 150px;
+}
+.serviceText h1{
+    font-size: 72px;
+    font-family: Bebas Neue;
+}
+.serviceText h4{
+    font-weight: 400;
+}
+.serviceText p{
+    font-size: 20px;
+    color: #88949e;
+    max-width: 380px;
+    font-weight: 350;
+}
+.iconCol{
+    column-gap: 50px;
+}
