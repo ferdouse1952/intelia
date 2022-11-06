@@ -16,7 +16,7 @@ const Crrrunchtime = () => {
                
                 <div className="col-6">
                     <div className="row sideDividerRow">
-                        <div className="col-6">
+                        <div className="col-6 bg-light">
                         <div className="cardText">
                                 <h5>PATHEVO</h5>
                                 <div className="divider divider-blue"></div>
@@ -39,7 +39,7 @@ const Crrrunchtime = () => {
                         <div className="divider-fill"></div>
                     </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 bg-light">
                             <div className="cardText">
                                 <h5>OXFAM</h5>
                                 <div className="divider divider-blue"></div>

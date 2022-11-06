@@ -1,0 +1,19 @@
+.testimonialSlider{
+    position: relative;
+}
+.testimonialSlider p{
+    position: absolute;
+    top:0;
+}
+.testimonialSection img{
+    width: 100%;
+    height: 80vh;
+}
+.person{
+  width: 75px;
+}
+.person img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

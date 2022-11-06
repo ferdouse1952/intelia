@@ -2,13 +2,10 @@
     padding-top: 100px;
 }
 .serviceCol{
-    padding-left: 150px;
+    padding-left: 180px;
 }
-.rightServiceRow{
-    padding-right: 150px;
-}
-.rightServiceCol{
-    padding-right: 100px;
+.rightserviceCol{
+    padding-right: 180px;
 }
 .serviceText h1{
     font-size: 72px;
@@ -22,4 +19,12 @@
     color: #88949e;
     max-width: 380px;
     font-weight: 350;
+}
+.rightserviceText h5{
+    font-size: 25px;
+    font-family: Bebas Neue;
+}
+.rightserviceText p{
+    font-size: 20px;
+    color: #88949e;
 }
