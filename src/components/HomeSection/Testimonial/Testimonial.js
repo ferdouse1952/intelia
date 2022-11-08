@@ -18,10 +18,10 @@ const Testimonial = () => {
       };
   
   return (
-    <div>
+    <div className='pt-5'>
         
                {/* <!-- Testimonial Section --> */}
-	<section class="testimonial-section bg-light">
+	<section class="testimonial-section">
 		<div class="large-container">
 			<div class="sec-title text-center">
 				<span class="title">Testimonial</span>
@@ -77,7 +77,20 @@ const Testimonial = () => {
 	</section>
 	{/* <!--End Testimonial Section --> */}
        
-  
+    {/* BUILD SOMETHING WITH US */}
+    <section className='bulidSection pt-5'>
+        <div className="buildText text-center">
+        <h1>BUILD SOMETHING WITH US</h1>
+        <p>Let’s partner to build amazing products that will excite end users and drive enterprise ambitions.</p>
+        <div className="build-btn">
+        <button className='border-0'>GET IN TOUCH</button>
+        </div>
+        </div>
+        <div className="team-members pt-5">
+            <img src="https://s3-us-west-2.amazonaws.com/intelia-ui-assets/images/home-team-row.png" alt="" />
+        </div>
+
+    </section>
 
   
     </div>
