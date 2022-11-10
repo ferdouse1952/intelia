@@ -18,7 +18,7 @@ const Testimonial = () => {
       };
   
   return (
-    <div className='pt-5'>
+    <div className=''>
         
                {/* <!-- Testimonial Section --> */}
 	<section class="testimonial-section">
