@@ -3,7 +3,7 @@ import './OurService.css';
 
 const OurService = () => {
     return (
-        <div>
+        <div className='serviceSection'>
             <div className='d-flex align-items-center'>
                 <div className="row serviceRow">
                     <div className="col-6 serviceCol">
